@@ -20,12 +20,6 @@ export function AboutHero() {
 
       <div className="container relative z-10 mx-auto max-w-4xl">
         <div className="flex flex-col items-center text-center">
-          {/* Icon badge */}
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-primary-foreground/20 bg-primary-foreground/10 px-3 py-1.5 backdrop-blur-sm sm:mb-6 sm:px-4 sm:py-2">
-            <Zap className="h-3 w-3 text-accent sm:h-4 sm:w-4" />
-            <span className="text-xs font-medium text-primary-foreground sm:text-sm">About Us</span>
-          </div>
-
           {/* Main heading */}
           <h1 className="mb-4 text-balance font-sans text-3xl font-bold leading-tight tracking-tight text-primary-foreground sm:mb-5 sm:text-4xl md:text-5xl lg:mb-6 lg:text-6xl">
             Leading the Future of <span className="text-accent">Energy Innovation</span>
