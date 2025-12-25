@@ -24,12 +24,12 @@ export function Header() {
             {isHovering && (
               <div className="absolute left-0 top-full mt-2 w-48 rounded-md border border-border bg-background shadow-lg">
                 <a
-                  href="https://volitspire.com"
+                  href="https://voltspire.soulspiregroup.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block px-4 py-2 text-sm text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
                 >
-                  Volitspire
+                  Voltspire
                 </a>
                 {/* Additional companies can be added here */}
               </div>
@@ -43,13 +43,13 @@ export function Header() {
           </Link>
         </div>
 
-        <Button className="bg-[#25D366] text-white hover:bg-[#128C7E]" asChild>
+        <Button className="bg-[#008000] text-white" asChild>
           <a
             href="https://wa.me/1234567890?text=Hi%2C%20I'm%20interested%20in%20your%20energy%20solutions"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <MessageCircle className="mr-2 h-4 w-4" />
+            <MessageCircle className="mr-1 h-4 w-4" />
             WhatsApp
           </a>
         </Button>

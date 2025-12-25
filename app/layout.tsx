@@ -7,10 +7,9 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Energy Products Group | Powering Tomorrow",
+  title: "Soulspire Group | Powering Tomorrow",
   description: "Leading provider of innovative energy solutions and products for a sustainable future",
-  generator: "v0.app",
-  metadataBase: new URL("https://energygroup.com"),
+  metadataBase: new URL("https://soulspireroup.com"),
   robots: {
     index: true,
     follow: true,
