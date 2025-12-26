@@ -65,21 +65,21 @@ export function Mission() {
         <div className="mt-12 grid grid-cols-2 gap-6 border-t border-border pt-12 sm:mt-16 sm:gap-8 sm:pt-16 md:grid-cols-4">
           
           <div className="text-center">
-            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">25+</div>
+            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">5+</div>
             <div className="text-xs text-muted-foreground sm:text-sm md:text-base">
               Years of Excellence
             </div>
           </div>
 
           <div className="text-center">
-            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">500+</div>
+            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">50+</div>
             <div className="text-xs text-muted-foreground sm:text-sm md:text-base">
               Global Partners
             </div>
           </div>
 
           <div className="text-center">
-            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">100+</div>
+            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">10+</div>
             <div className="text-xs text-muted-foreground sm:text-sm md:text-base">
               Countries Served
             </div>
