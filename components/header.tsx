@@ -12,7 +12,7 @@ export function Header() {
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-sm">
-      <nav className="container mx-auto flex items-center justify-between px-6 py-4 lg:px-8">
+      <nav className="container mx-auto flex items-center justify-between px-6 py-2 sm:py-4 lg:px-8">
         {/* Logo */}
         <Link href="/" className="text-xl font-semibold tracking-tight text-foreground">
           Energy Group
@@ -68,7 +68,7 @@ export function Header() {
         <div className="md:hidden">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="p-2 rounded-md text-muted-foreground hover:text-foreground transition-colors"
+            className="p-1 rounded-md text-muted-foreground hover:text-foreground transition-colors"
           >
             {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -78,7 +78,7 @@ export function Header() {
       {/* Mobile Slide Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-background border-t border-border shadow-lg">
-          <div className="flex flex-col px-6 py-4 gap-4">
+          <div className="flex flex-col px-6 py-3 gap-3">
             <Link
               href="/about"
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
