@@ -6,8 +6,7 @@ export function AboutHero() {
       className="relative overflow-hidden bg-primary
         px-4 sm:px-6 lg:px-8
         py-20 sm:py-24 lg:py-32
-        min-h-[50vh] sm:min-h-[55vh] lg:min-h-[60vh]
-        flex flex-col justify-center items-center"
+        flex flex-col items-center"
     >
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-15">
