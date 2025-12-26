@@ -31,6 +31,7 @@ export function Mission() {
   return (
     <section className="bg-background px-4 py-12 sm:px-6 sm:py-16 md:py-20 lg:px-8 lg:py-24">
       <div className="container mx-auto max-w-7xl">
+        
         {/* Section header */}
         <div className="mb-8 text-center sm:mb-12 md:mb-16">
           <h2 className="mb-3 text-balance text-2xl font-bold text-foreground sm:mb-4 sm:text-3xl md:text-4xl lg:text-5xl">
@@ -62,21 +63,33 @@ export function Mission() {
 
         {/* Company stats */}
         <div className="mt-12 grid grid-cols-2 gap-6 border-t border-border pt-12 sm:mt-16 sm:gap-8 sm:pt-16 md:grid-cols-4">
+          
           <div className="text-center">
-            <div className="mb-2 text-3xl font-bold text-accent sm:text-4xl md:text-5xl">25+</div>
-            <div className="text-xs text-muted-foreground sm:text-sm md:text-base">Years of Excellence</div>
+            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">25+</div>
+            <div className="text-xs text-muted-foreground sm:text-sm md:text-base">
+              Years of Excellence
+            </div>
           </div>
+
           <div className="text-center">
-            <div className="mb-2 text-3xl font-bold text-accent sm:text-4xl md:text-5xl">500+</div>
-            <div className="text-xs text-muted-foreground sm:text-sm md:text-base">Global Partners</div>
+            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">500+</div>
+            <div className="text-xs text-muted-foreground sm:text-sm md:text-base">
+              Global Partners
+            </div>
           </div>
+
           <div className="text-center">
-            <div className="mb-2 text-3xl font-bold text-accent sm:text-4xl md:text-5xl">100+</div>
-            <div className="text-xs text-muted-foreground sm:text-sm md:text-base">Countries Served</div>
+            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">100+</div>
+            <div className="text-xs text-muted-foreground sm:text-sm md:text-base">
+              Countries Served
+            </div>
           </div>
-          <div className="col-span-2 text-center md:col-span-1">
-            <div className="mb-2 text-3xl font-bold text-accent sm:text-4xl md:text-5xl">100%</div>
-            <div className="text-xs text-muted-foreground sm:text-sm md:text-base">Sustainable Focus</div>
+
+          <div className="text-center">
+            <div className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">100%</div>
+            <div className="text-xs text-muted-foreground sm:text-sm md:text-base">
+              Sustainable Focus
+            </div>
           </div>
         </div>
       </div>

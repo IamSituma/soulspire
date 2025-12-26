@@ -1,14 +1,14 @@
-import { Building2, ArrowUpRight } from "lucide-react"
+import { Building2, ArrowUpRight, Battery } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Companies() {
   const companies = [
     {
-      name: "Volitspire",
-      url: "https://volitspire.com",
+      name: "Voltspire",
+      url: "https://voltspire.soulspiregroup.com",
       description:
-        "Pioneering advanced energy storage solutions and smart grid technology. Volitspire specializes in next-generation battery systems, grid optimization software, and renewable energy integration platforms.",
-      services: ["Energy Storage Systems", "Grid Management", "Smart Technology", "Renewable Integration"],
+        "Voltspire is an online electronics and energy solutions store in Uganda, offering batteries, power stations, lighting, accessories, and smart devices. It features brands like Gizzu, Xiaomi, AMD, Intel, and MSI, with products ranging from emergency bulbs and jump starters to UPS power stations and projectors.",
+      services: ["Power Stations", "Computers & Accessories", "Batteries", "UPS Backups", "Networking"],
     },
     // Add more companies here as needed
   ]
@@ -31,13 +31,13 @@ export function Companies() {
           {companies.map((company, index) => (
             <div
               key={index}
-              className="group rounded-lg border border-border bg-background p-6 shadow-sm transition-all hover:border-accent/50 hover:shadow-lg sm:p-8"
+              className="group rounded-lg border border-border bg-background p-6 shadow-sm transition-all hover:border-black/50 hover:shadow-lg sm:p-8"
             >
               <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between sm:gap-6">
                 <div className="flex-1">
                   <div className="mb-3 flex items-center gap-3">
-                    <div className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10 sm:h-12 sm:w-12">
-                      <Building2 className="h-5 w-5 text-accent sm:h-6 sm:w-6" />
+                    <div className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-black/30 sm:h-12 sm:w-12">
+                      <Battery className="h-5 w-5 text-white sm:h-6 sm:w-6" />
                     </div>
                     <h3 className="text-xl font-bold text-foreground sm:text-2xl md:text-3xl">{company.name}</h3>
                   </div>
@@ -48,7 +48,7 @@ export function Companies() {
                     {company.services.map((service, serviceIndex) => (
                       <span
                         key={serviceIndex}
-                        className="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent sm:text-sm"
+                        className="rounded-full bg-black px-3 py-1 text-xs font-medium text-white sm:text-sm"
                       >
                         {service}
                       </span>
@@ -57,7 +57,7 @@ export function Companies() {
                 </div>
                 <Button
                   asChild
-                  className="group/btn w-full bg-accent text-accent-foreground hover:bg-accent/90 sm:w-auto"
+                  className="group/btn w-full bg-black text-white hover:bg-black/50 sm:w-auto"
                 >
                   <a href={company.url} target="_blank" rel="noopener noreferrer">
                     Visit Website
@@ -67,27 +67,6 @@ export function Companies() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Additional info */}
-        <div className="mt-8 rounded-lg border border-border bg-background p-6 sm:mt-12 sm:p-8">
-          <h3 className="mb-3 text-center text-lg font-semibold text-foreground sm:mb-4 sm:text-xl md:text-2xl">
-            Why Choose Energy Group?
-          </h3>
-          <div className="grid gap-4 sm:grid-cols-2 sm:gap-6 md:grid-cols-3">
-            <div className="text-center">
-              <p className="text-sm font-medium text-foreground sm:text-base">Comprehensive Solutions</p>
-              <p className="mt-1 text-xs text-muted-foreground">End-to-end energy products and services</p>
-            </div>
-            <div className="text-center">
-              <p className="text-sm font-medium text-foreground sm:text-base">Global Expertise</p>
-              <p className="mt-1 text-xs text-muted-foreground">Proven track record across 100+ countries</p>
-            </div>
-            <div className="col-span-2 text-center sm:col-span-1">
-              <p className="text-sm font-medium text-foreground sm:text-base">24/7 Support</p>
-              <p className="mt-1 text-xs text-muted-foreground">Dedicated team always ready to assist</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

@@ -5,19 +5,16 @@ export function Hero() {
   return (
     <section className="relative flex flex-1 items-center justify-center overflow-hidden bg-primary px-4 py-12 sm:px-6 sm:py-16 md:py-20 lg:px-8 lg:py-24">
       {/* Background pattern */}
-      <div className="absolute inset-0 opacity-5">
+      <div className="absolute inset-0 opacity-20">
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `url('/industrial-energy-grid-pattern.jpg')`,
+            backgroundImage: `url('/energy.webp')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         />
       </div>
-
-      {/* Ambient light effect */}
-      <div className="absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/20 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl">
         <div className="flex flex-col items-center text-center">
@@ -25,7 +22,7 @@ export function Hero() {
           <h1 className="mb-8 sm:mb-12 text-balance font-sans text-3xl font-bold leading-tight tracking-tight text-primary-foreground sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
             Sustainable Energy
             <br />
-            <span className="text-accent">Solutions for Tomorrow</span>
+            <span className="text-white">Solutions for Tomorrow</span>
           </h1>
 
           {/* Subheading */}
@@ -38,7 +35,7 @@ export function Hero() {
           <div className="flex flex-row items-center gap-4 sm:gap-6 mb-8 sm:mb-12">
             <Button
               size="lg"
-              className="group bg-accent text-accent-foreground hover:bg-accent/90"
+              className="group bg-white text-black-foreground hover:bg-white/90"
               asChild
             >
               <a
@@ -62,7 +59,7 @@ export function Hero() {
           {/* Stats section */}
           <div className="grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-10">
             <div className="flex flex-col items-center">
-              <div className="mb-2 text-2xl font-bold text-accent sm:text-3xl md:text-4xl lg:text-5xl">
+              <div className="mb-2 text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
                 5+
               </div>
               <div className="text-xs text-primary-foreground/70 sm:text-sm md:text-base">
@@ -71,7 +68,7 @@ export function Hero() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="mb-2 text-2xl font-bold text-accent sm:text-3xl md:text-4xl lg:text-5xl">
+              <div className="mb-2 text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
                 200+
               </div>
               <div className="text-xs text-primary-foreground/70 sm:text-sm md:text-base">
@@ -80,7 +77,7 @@ export function Hero() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="mb-2 text-2xl font-bold text-accent sm:text-3xl md:text-4xl lg:text-5xl">
+              <div className="mb-2 text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
                 100%
               </div>
               <div className="text-xs text-primary-foreground/70 sm:text-sm md:text-base">
