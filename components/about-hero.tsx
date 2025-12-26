@@ -26,8 +26,8 @@ export function AboutHero() {
           </h1>
 
           <p className="max-w-3xl text-pretty text-sm leading-relaxed text-primary-foreground/80 sm:text-base md:text-lg lg:text-xl">
-            Energy Group is a pioneering conglomerate dedicated to transforming the global energy landscape through
-            innovation, sustainability, and cutting-edge technology. With over 25 years of expertise, we deliver
+            Soulspire Group is a pioneering conglomerate dedicated to transforming the local and global energy landscape through
+            innovation, sustainability, and cutting-edge technology. With over 5 years of expertise, we deliver
             comprehensive energy solutions that power businesses and communities worldwide.
           </p>
 
